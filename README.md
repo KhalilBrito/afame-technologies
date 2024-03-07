@@ -1,4 +1,4 @@
-#Web Development Intern - Afame Technologies
+# Web Development Intern - Afame Technologies
 
 This repository will contain the 3 front-end projects required during the web development internship period.
 
