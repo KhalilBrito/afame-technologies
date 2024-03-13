@@ -3,19 +3,19 @@
 
 :root {
   --header-height: 3.5rem;
-  --first-color: hsl(93, 54%, 54%);
-  --first-color-alt: hsl(93, 50%, 48%);
-  --first-color-light: hsl(93, 58%, 66%);
+  --first-color: hsl(18, 54%, 54%);
+  --first-color-alt: hsl(18, 50%, 48%);
+  --first-color-light: hsl(18, 58%, 66%);
   --title-color: hsl(228, 8%, 98%);
   --text-color: hsl(228, 8%, 70%);
   --white-color: hsl(228, 8%, 98%);
   --black-color: hsl(228, 6%, 4%);
   --body-color: hsl(228, 6%, 8%);
   --container-color: hsl(228, 6%, 12%);
-  --shadow-img: 0 0 48px hsla(93, 54%, 54%, .4);
+  --shadow-img: 0 0 48px hsla(18, 54%, 54%, .4);
   --gradient-card: linear-gradient(180deg,
-                                hsla(93, 8%, 8%),
-                                hsla(93, 40%, 30%));
+                                hsla(18, 8%, 8%),
+                                hsla(18, 40%, 30%));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -280,8 +280,56 @@ img {
   color: var(--first-color);
 }
 
-/*=============== NEWS ===============*/
+/*=============== ABOUT US ===============*/
+.new__data{
+  text-align: center;
+}
 
+.new__container{
+  row-gap: 7.5rem;
+}
+
+.new__content{
+  row-gap: 6rem;
+}
+
+.new__card{
+  position: relative;
+  width: 200px;
+  background: var(--gradient-card);
+  padding: 9rem .75rem 1.5rem .75rem;
+  border: 2px solid var(--first-color-light);
+  border-radius: 1.5rem;
+}
+
+.new__img{
+  position: absolute;
+  top: -4.5rem;
+  left: 0;
+  right: 0;
+  width: 180px;
+  margin: 0 auto;
+  transition: transform .4s;
+
+}
+
+.new__title{
+  font-size: var(--h2-font-size);
+  text-align: center;
+}
+
+.new__card:nth-child(odd){
+  rotate: -5deg;
+}
+
+.new__card:nth-child(even){
+  justify-self: flex-end;
+  rotate: 5deg;
+}
+
+.new__card:hover .new__img{
+  transform: translateY(-.5rem);
+}
 
 /*=============== SHOP ===============*/
 
