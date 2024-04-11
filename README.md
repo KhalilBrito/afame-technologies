@@ -1,6 +1,6 @@
 # Web Development Intern - Afame Technologies
 
-This repository will contain the 3 front-end projects required during the web development internship period.
+This repository will contain the 2 front-end projects required during the web development internship period.
 
 The projects will cover various aspects of web development, including HTML, CSS, and JavaScript. Each project will focus on different concepts and techniques, allowing me to gain a comprehensive understanding of front-end development.
 
